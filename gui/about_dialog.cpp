@@ -22,10 +22,10 @@ std::vector<std::wstring> GetAboutText()
     aboutText.push_back(L"Copyright © 2025");
     aboutText.push_back(L"--------------------------------------------");
     aboutText.push_back(L"License Information:");
-    aboutText.push_back(L"No-Derivatives Open License");
-    aboutText.push_back(L"Dieses Werk ist Open Source und darf kostenlos und unverändert weitergegeben werden.");
-    aboutText.push_back(L"Jegliche Bearbeitung, Modifikation oder abgeleitete Werke sind untersagt.");
-    aboutText.push_back(L"Die Nutzung ist nur für nicht-kommerzielle Zwecke gestattet.");
+    aboutText.push_back(L"Dieses Projekt steht unter der MIT-Lizenz.");
+    aboutText.push_back(L"Du darfst den Code frei verwenden, kopieren, verändern und weiterverbreiten – auch kommerziell – solange");
+    aboutText.push_back(L"der ursprüngliche Urheber genannt wird.");
+    aboutText.push_back(L"Der Code wird ohne Gewährleistung bereitgestellt.");
     aboutText.push_back(L"Github Seite: https://github.com/thunderbird2013");
     return aboutText;
 }

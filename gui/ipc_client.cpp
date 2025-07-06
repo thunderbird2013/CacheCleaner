@@ -3,24 +3,6 @@
 #include <sstream>
 #include <windows.h>
 
-/*bool SendeLeerenBefehl() {
-    HANDLE hPipe = CreateFileW(
-        L"\\\\.\\pipe\\CacheCleanerPipe",
-        GENERIC_WRITE,
-        0, nullptr, OPEN_EXISTING, 0, nullptr
-    );
-
-    if (hPipe == INVALID_HANDLE_VALUE)
-        return false;
-
-    const char* msg = "LEERE";
-    DWORD written;
-    BOOL result = WriteFile(hPipe, msg, 5, &written, nullptr);
-
-    CloseHandle(hPipe);
-    return result && written == 5;
-}*/
-
 
 bool SendeLeerenBefehl() {
     HANDLE hPipe = INVALID_HANDLE_VALUE;
